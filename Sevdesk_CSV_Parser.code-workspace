@@ -23,8 +23,7 @@
 		},
 		"workbench.colorTheme": "Electron vue darker",
 		"files.exclude": {
-			"**/.git": true,
-			"**/.gitignore": true,
+			"**/.git*": true,
 			"**/.prettierrc.cjs": true,
 			"**/.prettierignore": true,
 			"**/.editorconfig": true,
