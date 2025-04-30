@@ -1,3 +1,1 @@
 grouping,product,description,reference,quantity,from,until,condition,unit,external id,price,total
-"Project shinigami","Primary IPv4",123.456.78.123/12,,"269",2024-12-20,2024-12-31,"€ 0.0008 per Hours, max. € 0.5000 per Months
-Usage: 269 Hours",Hours,Primary IP 1234567,"€ 0.0008","€ 0.2152"
