@@ -7,3 +7,4 @@ npm-debug.log*
 /hetzner/*
 /wise/*
 /sevdesk/*
+!example.csv
