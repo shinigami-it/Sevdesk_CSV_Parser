@@ -4,4 +4,7 @@ npm-debug.log*
 .env
 /build/
 /.vscode/
+/hetzner/
+/wise/
+/sevdesk/
 *.csv
