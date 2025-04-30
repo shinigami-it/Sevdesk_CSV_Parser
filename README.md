@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # 💸 SevDesk CSV Parser
 
 This Node.js project processes and transforms financial transaction exports from **Wise** and **Hetzner** into a unified CSV format ready for import into **SevDesk**.
@@ -130,4 +129,3 @@ When importing the resulting CSVs into **SevDesk**, apply the following options 
 - **Date format:** `YYYY-MM-DD`  
 - **Date region:** `EN`  
 - **Delimiter:** `automatic`
->>>>>>> 25f5d8ccfefb080f734123b0b3588808c41ef115
