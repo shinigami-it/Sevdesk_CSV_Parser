@@ -1,0 +1,8 @@
+grouping,product,description,reference,quantity,from,until,condition,unit,external id,price,total
+"Project shinigami","Primary IPv4",188.245.98.223/32,,"269",2024-12-20,2024-12-31,"€ 0.0008 per Hours, max. € 0.5000 per Months
+Usage: 269 Hours",Hours,Primary IP 77432418,"€ 0.0008","€ 0.2152"
+"Project shinigami","CX22 Cloud Server",shinigami,Server 57840914,"269",2024-12-20,2024-12-31,"€ 0.0052 per Hours, max. € 3.2900 per Months
+Usage: 269 Hours",Hours,Server 57840914,"€ 0.0052","€ 1.3988"
+"Project shinigami","TB add. Traffic (20 TB incl. traffic)",shinigami,Server 57840914,"0.0000",2024-12-20,2024-12-31,"Used quota: 0.0036 TB
+Included quota for period: 20.0000 TB
+Quota to charge: 0.0000 TB",TB,Traffic 57840914,"€ 1.00","€ 0.00"

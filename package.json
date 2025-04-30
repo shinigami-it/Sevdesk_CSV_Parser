@@ -1,0 +1,20 @@
+{
+  "name": "sevdesk_csv_parser",
+  "version": "1.0.0",
+  "description": "a csv parser from sources like wise, hetzner and more to proper csv format of sevdesk for easy imports",
+  "homepage": "https://github.com/shinigami-it/Sevdesk_CSV_Parser#readme",
+  "bugs": {
+    "url": "https://github.com/shinigami-it/Sevdesk_CSV_Parser/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shinigami-it/Sevdesk_CSV_Parser.git"
+  },
+  "license": "MIT",
+  "author": "Shinigami",
+  "type": "commonjs",
+  "main": "main.js",
+  "scripts": {
+    "test": "node main.js"
+  }
+}
