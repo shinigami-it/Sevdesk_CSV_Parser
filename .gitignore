@@ -4,5 +4,3 @@ npm-debug.log*
 .env
 /build/
 /.vscode/
-*.csv
-!example.csv
