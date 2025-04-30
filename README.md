@@ -32,9 +32,9 @@ node main.js
 
 ```
 .
-├── wise/         # Wise CSV exports
 ├── hetzner/      # Hetzner CSV exports
 ├── sevdesk/      # Output folder (auto-created)
+├── wise/         # Wise CSV exports
 ├── main.js       # Main processing script
 ├── package.json
 ```
