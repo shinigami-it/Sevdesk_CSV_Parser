@@ -38,7 +38,6 @@
 			"**/.vs": true,
 			"**/.vscode": true,
 			"**/LICENSE": true,
-			"**/README.*": true,
 			"**/public": true,
 			"**/dist": true,
 			"**/node_modules": true,
