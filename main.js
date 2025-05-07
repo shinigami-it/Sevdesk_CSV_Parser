@@ -88,8 +88,8 @@ const processHetznerFile = (filePath, done) => {
           name: row['product'],
           usage: row['grouping'],
           'date of transfer': date,
-          credit: allAmount.toFixed(2),
-          debit: '0',
+          credit: '0',
+          debit: allAmount.toFixed(2),
         };
         allData.hetzner.push(entry);
         other.length = 0; 
