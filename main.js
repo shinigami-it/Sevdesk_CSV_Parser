@@ -47,12 +47,16 @@ const processFile = (filePath, done) => {
       const date = formatDate(row['Created on']);
       const amount = formatNumber(row['Source amount (after fees)']);
 
+      const rawAmount = parseFloat(row['Source amount (after fees)']);
+      const formattedAmount = formatNumber(Math.abs(rawAmount));
+      const negativeAmount = formatNumber(-Math.abs(rawAmount));
+
       const entry = {
         name: name,
         usage: usage,
         'date of transfer': date,
-        credit: direction === 'IN' ? amount : '0',
-        debit: direction === 'OUT' ? amount : '0',
+        credit: direction === 'IN' ? formattedAmount : '0',
+        debit: direction === 'OUT' ? negativeAmount : '0',
       };
 
       allData.wise.push(entry);
@@ -89,7 +93,7 @@ const processHetznerFile = (filePath, done) => {
           usage: row['grouping'],
           'date of transfer': date,
           credit: '0',
-          debit: allAmount.toFixed(2),
+          debit: (-Math.abs(allAmount)).toFixed(2),
         };
         allData.hetzner.push(entry);
         other.length = 0; 
