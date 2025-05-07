@@ -51,8 +51,8 @@ const processFile = (filePath, done) => {
         name: name,
         usage: usage,
         'date of transfer': date,
-        credit: direction === 'OUT' ? amount : '',
-        debit: direction === 'IN' ? amount : '',
+        credit: direction === 'OUT' ? amount : '0',
+        debit: direction === 'IN' ? amount : '0',
       };
 
       allData.wise.push(entry);
@@ -88,7 +88,7 @@ const processHetznerFile = (filePath, done) => {
           name: row['product'],
           usage: row['grouping'],
           'date of transfer': date,
-          credit: '',
+          credit: '0',
           debit: allAmount.toFixed(2),
         };
         allData.hetzner.push(entry);
